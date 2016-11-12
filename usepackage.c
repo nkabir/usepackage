@@ -2,7 +2,7 @@
 /*****************************************************************************
  * 
  * Usepackage Environment Manager
- * Copyright (C) 1995-2014  Jonathan Hogg  <jonathan@onegoodidea.com>
+ * Copyright (C) 1995-2015  Jonathan Hogg  <me@jonathanhogg.com>
  *  
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  * 
  * Name   : usepackage.c
- * Author : Jonathan Hogg <jonathan@onegoodidea.com>
+ * Author : Jonathan Hogg <me@jonathanhogg.com>
  * 
  ****************************************************************************/
 
@@ -456,9 +456,6 @@ linked_list* make_pathlist(char* path_string)
    start = 0;
    i = 0;
    end = strlen(path_string);
-
-   /* if (!end)
-      return(list); */
 
    while (i <= end)
    {
